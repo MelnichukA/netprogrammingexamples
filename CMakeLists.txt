@@ -14,3 +14,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../dist/bin/${CMAKE_SYSTE
 
 add_subdirectory(libs)
 add_subdirectory(projects)
+add_subdirectory(labs)
