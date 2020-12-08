@@ -1,0 +1,5 @@
+add_subdirectory(shared_udp_structs)
+list(APPEND SHARED_UDP_DEPENDENCIES shared_udp_structs)
+add_subdirectory(udp_time_sender)
+add_subdirectory(udp_time_receiver)
+add_subdirectory(multicast)
